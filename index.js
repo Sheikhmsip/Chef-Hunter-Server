@@ -13,7 +13,12 @@ app.get('/chefs', (req, res) => {
     res.send(chefs);
 })
 
-
+app.get('/chefs/:id', (req, res) => {
+    const id = parseInt(req.params.id);
+    console.log(id)
+    const chefsCategory = chefs.filter(c => parseInt(c.id) === id);
+    res.send(chefsCategory)
+})
 app.listen(port, () => {
     console.log(`chef API ins running on : ${port}`)
 })

@@ -1,41 +1,48 @@
-{
-    "chefs": [
+
+[
       {
+        "id": 1,
         "name": "Alice Smith",
         "experience_years": 12,
         "recipes_numbers": 75,
         "photo_url": "https://example.com/chefs/alice-smith.jpg"
+       
       },
       {
+        "id": 2,
         "name": "Bob Johnson",
         "experience_years": 8,
         "recipes_numbers": 50,
         "photo_url": "https://example.com/chefs/bob-johnson.jpg"
       },
       {
+        "id": 3,
         "name": "Charlie Brown",
         "experience_years": 15,
         "recipes_numbers": 100,
         "photo_url": "https://example.com/chefs/charlie-brown.jpg"
       },
       {
+        "id": 4,
         "name": "David Lee",
         "experience_years": 5,
         "recipes_numbers": 30,
         "photo_url": "https://example.com/chefs/david-lee.jpg"
       },
       {
+        "id": 5,
         "name": "Evelyn Chen",
         "experience_years": 10,
         "recipes_numbers": 60,
         "photo_url": "https://example.com/chefs/evelyn-chen.jpg"
       },
       {
+        "id": 6,
         "name": "Frank White",
         "experience_years": 20,
         "recipes_numbers": 150,
         "photo_url": "https://example.com/chefs/frank-white.jpg"
       }
-    ]
-  }
+    
+]
   
