@@ -1,48 +1,311 @@
-
 [
-      {
-        "id": 1,
-        "name": "Alice Smith",
-        "experience_years": 12,
-        "recipes_numbers": 75,
-        "photo_url": "https://example.com/chefs/alice-smith.jpg"
-       
-      },
-      {
-        "id": 2,
-        "name": "Bob Johnson",
-        "experience_years": 8,
-        "recipes_numbers": 50,
-        "photo_url": "https://example.com/chefs/bob-johnson.jpg"
-      },
-      {
-        "id": 3,
-        "name": "Charlie Brown",
-        "experience_years": 15,
-        "recipes_numbers": 100,
-        "photo_url": "https://example.com/chefs/charlie-brown.jpg"
-      },
-      {
-        "id": 4,
-        "name": "David Lee",
-        "experience_years": 5,
-        "recipes_numbers": 30,
-        "photo_url": "https://example.com/chefs/david-lee.jpg"
-      },
-      {
-        "id": 5,
-        "name": "Evelyn Chen",
-        "experience_years": 10,
-        "recipes_numbers": 60,
-        "photo_url": "https://example.com/chefs/evelyn-chen.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Frank White",
-        "experience_years": 20,
-        "recipes_numbers": 150,
-        "photo_url": "https://example.com/chefs/frank-white.jpg"
-      }
-    
-]
+    {
+      "id": "1",
+      "name": "CZN Burak",
+      "experience_years": 12,
+      "recipes_numbers": 75,
+      "likes": 2000 ,
+      "photo_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS-p8OE4EhP3AoPXLZjTa2NBqRpPznQocF1mryqUz-Mm87teHmE",
+      "description" : "Burak Özdemir, known as CZN Burak, is a Turkish chef and restaurateur CZN, Özdemir's nickname, originates from a frequent mispronunciation of the Cinzano, the name of his father's textile shop in Laleli.",
+      "recipes" :[
+        {
+          "id": 1,
+          "chef-name": "CZN Burak",
+          "recipes-name": "Kırmızı",
+          "experience_years": 12,
+          "recipes_numbers": 75,
+          "rating": 4.5,
+          "likes": 2000 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_151443.jpg",
+          "cooking":["dry heat cooking", "moist heat cooking", "combination cooking", "Frying"],
+          "ingredients": ["Avocado", "skinless chicken", "garam masala", "thai chili", " potatoes," ]
+        
+         
+        },
+        {
+          "id": 2,
+          "chef-name": "CZN Burak",
+          "recipes-name": "Mevsim",
+          "experience_years": 10,
+          "recipes_numbers": 75,
+          "rating": 4.4,
+          "likes": 1640 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_615431.jpg",
+          "cooking":["Grilling", "Sautéing", "combination cooking", "Frying"],
+          "ingredients": [" potatoes","tomato juice", " Boneless chicken breast", " cinnamon","smoked paprika" ]
+        },
+        {
+          "id": 3,
+          "chef-name": "CZN Burak",
+          "recipes-name": "CZNBURAK ",
+          "experience_years": 8,
+          "recipes_numbers": 75,
+          "rating": 4.3,
+          "likes": 1153 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_977316.jpg",
+          "cooking":["Stir frying or pan frying  ", "moist heat cooking", "combination cooking", "Frying"],
+          "ingredients": ["poppy seeds", " Coconut milk", "curry", "star anise","olive oil" ]
+         
+        }
+
+      ]
   
+     
+    },
+    {
+      "id": "2",
+      "name": "Salt Bae",
+      "experience_years": 8,
+      "recipes_numbers": 50,
+      "likes": 1260 ,
+      "photo_url": "https://cdn.squaremeal.co.uk/article/10443/images/salt-bae-restaurant-news-court_27042023020214.jpg?w=1200",
+      "description" : "Nusret Gökçe, nicknamed Salt Bae, is a Turkish butcher, chef, food entertainer and restaurateur whose technique for preparing and seasoning meat became an Internet meme in January 2017. He owns Nusr-Et, a chain of luxury steak houses.",
+      "recipes" :[
+        {
+          "id": 1,
+          "chef-name": "Salt Bae",
+          "recipes-name": "Kırmızı",
+          "experience_years": 12,
+          "recipes_numbers": 75,
+          "rating": 4.5,
+          "likes": 2000 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_151443.jpg",
+          "cooking":["dry heat cooking", "moist heat cooking", "combination cooking", "Frying"],
+          "ingredients": ["Avocado", "skinless chicken", "garam masala", "thai chili", " potatoes," ]
+        
+         
+        },
+        {
+          "id": 2,
+          "chef-name": "Salt Bae",
+          "recipes-name": "Mevsim",
+          "experience_years": 10,
+          "recipes_numbers": 75,
+          "rating": 4.4,
+          "likes": 1640 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_615431.jpg",
+          "cooking":["Grilling", "Sautéing", "combination cooking", "Frying"],
+          "ingredients": [" potatoes","tomato juice", " Boneless chicken breast", " cinnamon","smoked paprika" ]
+        },
+        {
+          "id": 3,
+          "chef-name": "Salt Bae",
+          "recipes-name": "CZNBURAK ",
+          "experience_years": 8,
+          "recipes_numbers": 75,
+          "rating": 4.3,
+          "likes": 1153 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_977316.jpg",
+          "cooking":["Stir frying or pan frying  ", "moist heat cooking", "combination cooking", "Frying"],
+          "ingredients": ["poppy seeds", " Coconut milk", "curry", "star anise","olive oil" ]
+         
+        }
+
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Somer Sivrioğlu",
+      "experience_years": 15,
+      "recipes_numbers": 100,
+      "likes": 996,
+      "photo_url": "https://cdn.karar.com/news/1327033.jpg",
+      "description" : "Somer Sivrioğlu is a Turkish chef and restaurateur. Somer Sivrioğlu was born on 25 May 1971 in Istanbul, where he lived for 25 years. His mother was also a chef and restaurateur, and he gained an understanding of the Turkish cuisine early in life.",
+      "recipes" :[
+        {
+          "id": 1,
+          "chef-name": "Somer Sivrioğlu",
+          "recipes-name": "Kırmızı",
+          "experience_years": 12,
+          "recipes_numbers": 75,
+          "rating": 4.5,
+          "likes": 2000 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_151443.jpg",
+          "cooking":["dry heat cooking", "moist heat cooking", "combination cooking", "Frying"],
+          "ingredients": ["Avocado", "skinless chicken", "garam masala", "thai chili", " potatoes," ]
+        
+         
+        },
+        {
+          "id": 2,
+          "chef-name": "Somer Sivrioğlu",
+          "recipes-name": "Mevsim",
+          "experience_years": 10,
+          "recipes_numbers": 75,
+          "rating": 4.4,
+          "likes": 1640 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_615431.jpg",
+          "cooking":["Grilling", "Sautéing", "combination cooking", "Frying"],
+          "ingredients": [" potatoes","tomato juice", " Boneless chicken breast", " cinnamon","smoked paprika" ]
+        },
+        {
+          "id": 3,
+          "chef-name": "Somer Sivrioğlu",
+          "recipes-name": "CZNBURAK ",
+          "experience_years": 8,
+          "recipes_numbers": 75,
+          "rating": 4.3,
+          "likes": 1153 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_977316.jpg",
+          "cooking":["Stir frying or pan frying  ", "moist heat cooking", "combination cooking", "Frying"],
+          "ingredients": ["poppy seeds", " Coconut milk", "curry", "star anise","olive oil" ]
+         
+        }
+
+      ]
+
+    },
+    {
+      "id": "4",
+      "name": "Aslhan Koruyan Sabani",
+      "experience_years": 5,
+      "recipes_numbers": 30,
+      "likes": 747 ,
+      "photo_url": "https://mo.ciner.com.tr/video/2018/11/01/ver1608216104/2300932769AB93B33981AD1D13625B92.jpg",
+      "description" : "Aslıhan Koruyan Sabancı, née Dilek Aslıhan Koruyan, is a Turkish Celebritychef and author, who specializes in healthy and creative recipes. She represented her country as Miss Turkey at the Miss World 1991 beauty pageant.",
+      "recipes" :[
+        {
+          "id": 1,
+          "chef-name": "Aslhan Koruyan Sabani",
+          "recipes-name": "Kırmızı",
+          "experience_years": 12,
+          "recipes_numbers": 75,
+          "rating": 4.5,
+          "likes": 2000 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_151443.jpg",
+          "cooking":["dry heat cooking", "moist heat cooking", "combination cooking", "Frying"],
+          "ingredients": ["Avocado", "skinless chicken", "garam masala", "thai chili", " potatoes," ]
+        
+         
+        },
+        {
+          "id": 2,
+          "chef-name": "Aslhan Koruyan Sabani",
+          "recipes-name": "Mevsim",
+          "experience_years": 10,
+          "recipes_numbers": 75,
+          "rating": 4.4,
+          "likes": 1640 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_615431.jpg",
+          "cooking":["Grilling", "Sautéing", "combination cooking", "Frying"],
+          "ingredients": [" potatoes","tomato juice", " Boneless chicken breast", " cinnamon","smoked paprika" ]
+        },
+        {
+          "id": 3,
+          "chef-name": "Aslhan Koruyan Sabani",
+          "recipes-name": "CZNBURAK ",
+          "experience_years": 8,
+          "recipes_numbers": 75,
+          "rating": 4.3,
+          "likes": 1153 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_977316.jpg",
+          "cooking":["Stir frying or pan frying  ", "moist heat cooking", "combination cooking", "Frying"],
+          "ingredients": ["poppy seeds", " Coconut milk", "curry", "star anise","olive oil" ]
+         
+        }
+
+      ]
+
+    },
+    {
+      "id": "5",
+      "name": "Ali Güngörmüş",
+      "experience_years": 10,
+      "recipes_numbers": 60,
+      "likes": 549 ,
+      "photo_url": "https://i4.hurimg.com/i/hurriyet/75/750x422/55eb6a0ef018fbb8f8bf911e.jpg",
+      "description" : "Chef Ali Güngörmüş was born in Tunceli in 1976. His parents and family were against him being a cook. However, he trained as a cook. He was the first chef to bag a Michelin star. He received the Michelin star in 2006 for his restaurant Canard Nouveau in Hamburg",
+      "recipes" :[
+        {
+          "id": 1,
+          "chef-name": "Ali Güngörmüş",
+          "recipes-name": "Kırmızı",
+          "experience_years": 12,
+          "recipes_numbers": 75,
+          "rating": 4.5,
+          "likes": 2000 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_151443.jpg",
+          "cooking":["dry heat cooking", "moist heat cooking", "combination cooking", "Frying"],
+          "ingredients": ["Avocado", "skinless chicken", "garam masala", "thai chili", " potatoes," ]
+        
+         
+        },
+        {
+          "id": 2,
+          "chef-name": "Ali Güngörmüş",
+          "recipes-name": "Mevsim",
+          "experience_years": 10,
+          "recipes_numbers": 75,
+          "rating": 4.4,
+          "likes": 1640 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_615431.jpg",
+          "cooking":["Grilling", "Sautéing", "combination cooking", "Frying"],
+          "ingredients": [" potatoes","tomato juice", " Boneless chicken breast", " cinnamon","smoked paprika" ]
+        },
+        {
+          "id": 3,
+          "chef-name": "Ali Güngörmüş",
+          "recipes-name": "CZNBURAK ",
+          "experience_years": 8,
+          "recipes_numbers": 75,
+          "rating": 4.3,
+          "likes": 1153 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_977316.jpg",
+          "cooking":["Stir frying or pan frying  ", "moist heat cooking", "combination cooking", "Frying"],
+          "ingredients": ["poppy seeds", " Coconut milk", "curry", "star anise","olive oil" ]
+         
+        }
+
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Arda Türkmen",
+      "experience_years": 20,
+      "recipes_numbers": 150,
+      "likes": 431 ,
+      "photo_url": "https://ais.kochbar.de/masters/902877/1600x900/ali-guengoermues-sternekoch-mit-tuerkischen-wurzeln.jpg",
+      "description" : "On the 15th of February, following Turkish President Recep Tayyip ERDOĞAN’s highly anticipated visit to Expo 2020 Dubai, the Mediterranean Aquatic and Animal Products Exporters’ Association headed by Deputy Chairman Ali Can YAMANYILMAZ, organized a tasting event for UAE media, led by Turkey’s celebrity chef Arda TÜRKMEN, with the esteemed presence of Turkey’s deputy minister of trade Rıza Tuna TURAGAY.",
+      "recipes" :[
+        {
+          "id": 1,
+          "chef-name": "Arda Türkmen",
+          "recipes-name": "Kırmızı",
+          "experience_years": 12,
+          "recipes_numbers": 75,
+          "rating": 4.5,
+          "likes": 2000 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_151443.jpg",
+          "cooking":["dry heat cooking", "moist heat cooking", "combination cooking", "Frying"],
+          "ingredients": ["Avocado", "skinless chicken", "garam masala", "thai chili", " potatoes," ]
+        
+         
+        },
+        {
+          "id": 2,
+          "chef-name": "Arda Türkmen",
+          "recipes-name": "Mevsim",
+          "experience_years": 10,
+          "recipes_numbers": 75,
+          "rating": 4.4,
+          "likes": 1640 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_615431.jpg",
+          "cooking":["Grilling", "Sautéing", "combination cooking", "Frying"],
+          "ingredients": [" potatoes","tomato juice", " Boneless chicken breast", " cinnamon","smoked paprika" ]
+        },
+        {
+          "id": 3,
+          "chef-name": "Arda Türkmen",
+          "recipes-name": "CZNBURAK ",
+          "experience_years": 8,
+          "recipes_numbers": 75,
+          "rating": 4.3,
+          "likes": 1153 ,
+          "photo_url": "https://menu.cznburak.com/img/menu_items/menu_item_977316.jpg",
+          "cooking":["Stir frying or pan frying  ", "moist heat cooking", "combination cooking", "Frying"],
+          "ingredients": ["poppy seeds", " Coconut milk", "curry", "star anise","olive oil" ]
+         
+        }
+    ]
+}
+]
